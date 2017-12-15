@@ -22,11 +22,6 @@ matrix:
       env: TOXENV=py35-d20
 
 
-branches:
-    only:
-        - master
-        - develop
-
 install: pip install --quiet tox
 
 
